@@ -1,0 +1,30 @@
+{
+    "general": {
+        "welcome": "welcome"
+    },
+    "products": {
+        "products": "Products",
+        "add": "Add"
+    },
+    "cart": {
+        "cart": "Cart",
+        "name": "Name",
+        "price": "Price",
+        "quantity": "Quantity",
+        "total": "Total",
+        "clearShopingCart": "Clear Shoping Cart",
+        "orderNow": "Order Now",
+        "havingInCart": "You Have In Your Cart",
+        "shopingCart": "Shoping Cart",
+        "delete": "Delete",
+        "orderMsg": "Well Done! Your Order Is Successfully Sent"
+    },
+    "select": {
+        "categories": "Categories",
+        "all": "All",
+        "electronics": "Electronics",
+        "jewelery": "Jewelery",
+        "men's clothing" : "MensClothing",
+        "women's clothing" : "WomenClothing"
+    }
+}

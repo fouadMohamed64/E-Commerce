@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+<label class="my-1">{{'select.categories' | translate}}</label>
+<select class="form-control" (change)="detectChanges($event)">
+    <option value="all" selected>{{'select.all' | translate}}</option>
+    @for (cat of data; track $index) {
+        <option [value]="cat">{{'select.'+cat | translate}}</option>
+    }
+</select>

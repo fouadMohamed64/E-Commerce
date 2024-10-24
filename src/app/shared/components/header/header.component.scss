@@ -1,0 +1,29 @@
+
+
+nav{
+    background: linear-gradient(to right, #6fbeff, #0193f4);
+    color: #fff;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+            margin: 0;
+            li{
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+                font-size: 22px;
+                color: #fff;
+                text-decoration: none;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
+}

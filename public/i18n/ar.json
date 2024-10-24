@@ -1,0 +1,30 @@
+{
+    "general": {
+        "welcome": "مرحبا"
+    },
+    "products": {
+        "products": "المنتجات",
+        "add": "اضافه"
+    },
+    "cart": {
+        "cart": "السله",
+        "name": "الاسم",
+        "price": "السعر",
+        "quantity": "الكميه",
+        "total": "الاجمالي",
+        "clearShopingCart": "حذف السله",
+        "orderNow": "اطلب الان",
+        "havingInCart": "لديك في سلتك ",
+        "shopingCart": "سله التسوق",
+        "delete": "حذف",
+        "orderMsg": "تم ارسال طلبك بنجاح"
+    },
+    "select": {
+        "categories": "فئات",
+        "all": "الكل",
+        "electronics": "الكهربائيات",
+        "jewelery": "المجوهرات",
+        "men's clothing" : "ملابس رجالي",
+        "women's clothing" : "ملابي سيدات"
+    }
+}
