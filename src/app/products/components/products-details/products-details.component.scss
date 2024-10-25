@@ -16,9 +16,10 @@
 }
 
 
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 500px){
     .box{
         width: 80%;
+        height: 100vh;
         ul{
             margin-left: 20px;
             li{

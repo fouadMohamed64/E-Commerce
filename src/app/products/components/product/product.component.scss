@@ -43,12 +43,13 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 600px){
-
+@media (min-width: 300px) and (max-width: 500px){
 
     .item{
         width: 80%;
         padding: 1em;
+        margin-left: 25px;
+
     }
 
 }

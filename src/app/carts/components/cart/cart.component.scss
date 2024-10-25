@@ -51,11 +51,10 @@
 }
 
 
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 500px){
 
     .cartBox{
         .table{
-            // max-width: 20em!important;
             thead{
                 tr{
                     display: none;
@@ -65,7 +64,6 @@
                 tr{
                     display: flex;
                     flex-direction: column;
-                    //  margin: 0px 50px;
                 }
             }
         }
