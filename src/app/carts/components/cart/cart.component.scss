@@ -20,7 +20,7 @@
                 td{
                     border-bottom: 0;
                     text-align: center;
-                vertical-align: middle;
+                    vertical-align: middle;
                 img{
                     width: 80px;
                     height: 80px;
@@ -48,4 +48,27 @@
             }
         }
     }
+}
+
+
+@media (min-width: 400px) and (max-width: 600px){
+
+    .cartBox{
+        .table{
+            // max-width: 20em!important;
+            thead{
+                tr{
+                    display: none;
+                }
+            }
+            tbody {
+                tr{
+                    display: flex;
+                    flex-direction: column;
+                    //  margin: 0px 50px;
+                }
+            }
+        }
+    }
+
 }

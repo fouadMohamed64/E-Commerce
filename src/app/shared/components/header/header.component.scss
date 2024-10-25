@@ -27,3 +27,16 @@ nav{
         }
     }
 }
+
+
+
+@media (min-width: 400px) and (max-width: 600px){
+    nav{
+        .content{
+            display: block;
+            ul{
+                width: 80%;
+            }
+        }
+    }
+}

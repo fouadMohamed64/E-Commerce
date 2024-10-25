@@ -6,6 +6,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
 import { SelectComponent } from './components/select/select.component';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -13,7 +14,8 @@ import { TranslateModule } from '@ngx-translate/core';
   declarations: [
     HeaderComponent,
     SpinnerComponent,
-    SelectComponent
+    SelectComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +27,7 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   exports: [
     HeaderComponent,
+    FooterComponent,
     SpinnerComponent,
     SelectComponent,
     FormsModule,
